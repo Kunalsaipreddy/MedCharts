@@ -1,0 +1,18 @@
+GITHUB OAUTH SETUP REQUIREMENTS
+
+To enable GitHub authentication in this application, you must perform the following steps:
+
+1. REGISTER OAUTH APP ON GITHUB
+   - Go to: https://github.com/settings/developers
+   - Click "New OAuth App"
+   - Homepage URL: https://ais-dev-dds6hhfpcb3dosb4a2fg23-626884961939.asia-southeast1.run.app
+   - Authorization callback URL: https://ais-dev-dds6hhfpcb3dosb4a2fg23-626884961939.asia-southeast1.run.app/auth/github/callback
+
+2. CONFIGURE ENVIRONMENT VARIABLES
+   The following variables must be set in your environment:
+   - GITHUB_CLIENT_ID: The Client ID from your GitHub OAuth app.
+   - GITHUB_CLIENT_SECRET: The Client Secret from your GitHub OAuth app.
+
+3. SHARED ENVIRONMENT (OPTIONAL)
+   If sharing the app, add this callback URL to your GitHub app settings as well:
+   - https://ais-pre-dds6hhfpcb3dosb4a2fg23-626884961939.asia-southeast1.run.app/auth/github/callback
