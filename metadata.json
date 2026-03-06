@@ -1,0 +1,5 @@
+{
+  "name": "MedChart",
+  "description": "A clinical dashboard for real-time patient vital sign visualization and trend analysis from monitor data.",
+  "requestFramePermissions": []
+}
